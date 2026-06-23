@@ -1,0 +1,14 @@
+public class StripeGateway {
+
+    public void makePayment(
+            double amount
+    ) {
+
+        System.out.println(
+                "Payment processed through Stripe: "
+                        + amount
+        );
+
+    }
+
+}
