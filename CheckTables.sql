@@ -41,3 +41,9 @@ BETWEEN
 SYSDATE
 AND
 SYSDATE+30;
+
+SELECT
+AccountID,
+CustomerID,
+Balance
+FROM Accounts;
