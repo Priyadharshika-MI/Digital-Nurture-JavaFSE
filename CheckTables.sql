@@ -47,3 +47,9 @@ AccountID,
 CustomerID,
 Balance
 FROM Accounts;
+
+SELECT
+EmployeeID,
+Name,
+Salary
+FROM Employees;
