@@ -1,9 +1,10 @@
-import Posts from './Posts';
+import CohortDetails from "./CohortDetails";
 
 function App() {
   return (
     <div>
-      <Posts />
+      <h1 style={{ textAlign: "center" }}>Cohorts Details</h1>
+      <CohortDetails />
     </div>
   );
 }
